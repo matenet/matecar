@@ -1,0 +1,31 @@
+<?php 
+            function zrobLinkiZdjec()
+            {
+                $ci =& get_instance();
+                $ilosc_img=$ci->session->userdata('ilosc_zdjec');
+                for($i=0; $i<=$ilosc_img; $i++)
+                {
+                   $link_number="image-link-".$i;
+                   echo '<img src="' . $ci->input->post($link_number) . '" ' . 'class="dodaj-auto-img">'; 
+                }
+            }
+            function polaczLinkiZdjec()
+            {
+                $ci =& get_instance();
+                $ilosc_img=$ci->session->userdata('ilosc_zdjec');
+                $output='';
+                for($i=0; $i<=$ilosc_img; $i++)
+                {
+                    $link_number="image-link-".$i;
+                    if($i==0)
+                    {
+                        $output = $ci->input->post($link_number);
+                    }
+                    else
+                    {
+                        $output .= ', ' . $ci->input->post($link_number); 
+                    }
+                }
+                return $output;
+            }
+    ?> 

@@ -1,0 +1,122 @@
+@font-face{font-family:HussarNova;src:url('../fonts/HussarNova55.ttf')}
+@font-face{font-family:MyriadPro;src:url('../fonts/Myriad-Pro-Regular.ttf')}
+@font-face{font-family:JaapokkiRegular;src:url('../fonts/Jaapokki-Regular.otf')}
+html,body{margin:0;padding:0}
+html{height:100%}
+body{min-height:100%;position:relative}
+h1,h2,h3,h4,h5{font-family:MyriadPro}
+h1{font-size:28px}
+input[type="file"]{display:none}
+.custom-file-upload,input[type="submit"]{background:#e78b58;color:#fff;display:inline-block;padding:10px 12px;font-family:MyriadPro}
+input[type="submit"]{border:none;font-size:16px;margin-top:10px;-webkit-highlight:none}
+.custom-file-upload:hover, input[type="submit"]:hover{background: #636363;cursor: pointer;}
+input[type="text"]{-webkit-appearance:none;-moz-appearance:none}
+#main-content-wrapper{min-height:100vh;position:relative}
+.top-header{width:100%;height:80px;display:inline-block;text-align:center;background-color:#e78b58;box-sizing:border-box}
+.top-header ul{padding:0;list-style:none}
+.top-header ul li{display:inline-block;padding:10px 20px;color:#fff;font-family:HussarNova;font-size:25px}
+.top-header ul li a{text-decoration:none;color:#fff}
+.top-header ul li a:hover{color:#636363;}
+.container{margin:0 auto;max-width:1168px;padding:0 10px;text-align:center}
+.login-field,.submit-button{margin:0 5px;padding:8px}
+.submit-button{padding:6px;border:solid #e78b58;background-color:#e78b58;color:#fff}
+.submit-button:hover{cursor:pointer;opacity:.9}
+.date-field{margin:0 5px;padding:7px 5px;width:90%;box-sizing:border-box}
+.home-central-menu-wrapper{color:#e78b58}
+.home-central-single-tile{display:inline-block;vertical-align:top;width:250px;height:220px;margin:15px;border:solid 2px #e78b58;font-family:JaapokkiRegular;font-size:24px}
+.home-central-single-tile:hover{box-shadow:0 0 20px #000}
+.home-central-single-tile a{display:block;padding:15px;width:100%;height:100%;color:#e78b58;text-decoration:none;box-sizing:border-box}
+.home-central-single-tile > .fa,.fas{font-size:60px;margin-top:45px}
+.tile-icon{display:inline-block;text-align:center;margin:0 30px}
+.panel-classic-button{display:inline-block;text-decoration:none;color:#fff;background:#e78b58;padding:10px 12px;margin:20px 10px;font-family:MyriadPro}
+.panel-classic-button:hover{cursor:pointer;background:#636363}
+.show-single-car-wrapper,.show-cars-wrapper{vertical-align:top;position:relative;box-sizing:border-box;display:inline-block;text-align:center;font-family:JaapokkiRegular}
+.show-cars-wrapper{width:100%;padding:2%;margin-bottom:30px}
+.show-cars-wrapper a{display:inline-block;height:100%;text-decoration:none}
+.show-single-car-container{width:262px;height:196px;padding:10px; vertical-align: top;margin:10px 7px;display:inline-block;position:relative;box-sizing:border-box;text-align:center;box-shadow:0 0 10px #000; transition: background .3s ease-in;}
+.show-single-car-container img{width:100%;height:100%}
+.show-single-car-container:hover{background-color:#e78b58;}
+.show-single-car-model{width:242px;color:#000;position:absolute;bottom:10px;left:10px;background:rgba(255,255,255,0.6);box-sizing:border-box;font-weight:300; transition: color .3s ease-in;}
+.show-single-car-container:hover > .show-single-car-model{color:#636363;}
+.show-single-car-change-link-container { opacity:0; transition: opacity .3s ease-in;}
+.show-single-car-container:hover > .show-single-car-change-link-container{opacity: 1; width: 242px; height:176px; position: absolute; top: 10px;left: 10px; background: rgba(0, 0, 0, 0.5);}
+.show-single-car-change-link-wrapper{position: absolute;top:50%;left:50%; margin-top: -25px; margin-left: -70px;}
+.show-single-car-change-link{width: 50px;text-decoration: none; margin: 0 5px; color: #fff;font-size: 40px;}
+.show-single-car-add-photo-link{display: block; width: 100%; height: 100%; text-decoration: none; color: #e78b58;font-size: 20px;}
+.show-single-car-container:hover > .show-single-car-add-photo-link{color:#235f2d; cursor: pointer;}
+.show-car-image-button{background: none; border: 0; outline: 0;}
+.show-car-image-button:hover{cursor: pointer}
+.show-car-image-form{display: inline-block;}
+.upload-images-form{display:block}
+.uploaded-images-form-wrapper,.add-car-summary-wrapper{font-family:MyriadPro}
+#uploaded_images img{display:inline-block;width:160px;height:120px;margin:20px 10px 0}
+.complete-upload-images a{text-decoration:none;color:#fff;background:#e78b58;padding:10px 12px}
+.complete-upload-images a:hover{cursor:pointer;opacity:.9}
+.add-car-form-fields-container{text-align:left;column-count: 3;column-gap: 10px;}
+.add-car-form-field{padding:10px 12px;margin:10px; width: 95%; box-sizing: border-box;}
+.add-car-extra-equipment{text-align:left;column-count: 4;column-gap: 0px;}
+.add-car-checkbox-label{margin:15px}
+#uploaded_images h3{margin:15px 0 0}
+option[disabled]{display:none}
+.car-calendar-holder{display:inline-block;text-align:center}
+#calendar{max-width:330px;margin:0 25px; font-family:MyriadPro;}
+.calendar-management-wrapper,.calendar-management{max-width:500px;display:inline-block;vertical-align:top;text-align:center}
+.calendar-management{margin:0 20px 20px}
+.car-img-wrapper{text-align:center}
+.car-img-wrapper img{width:31%;margin:1%}
+.cars-grid-wrapper{margin-top:3%;margin-left:3%;white-space:normal}
+.cars-grid-wrapper a{text-decoration:none}
+.calendar-wrapper{margin: 10px 0 20px 0;}
+.calendar-header-wrapper, .calendar-header-wrapper, .calendar-car-header-holder{width: 100%; font-family: MyriadPro; font-size: 18px; color: #fff;}
+.calendar-header-wrapper{height: 75px;background: #e78b58;}
+#calendar-header-wrapper-id{padding-right: 17px;box-sizing: border-box;}
+.calendar-car-header-holder{height: 100%;width: 22%; float:left; text-align: center; padding-top: 28px; border-right: solid 1px white; box-sizing: border-box;}
+.calendar-month-holder{position: relative; height: 50px; padding-top: 14px; border-bottom: solid 1px white; box-sizing: border-box;}
+.calendar-month-changer{position: absolute; top: 12px; right: 12px;}
+#left-arrow-calendar-month-changer, #right-arrow-calendar-month-changer{margin-top: 0;font-size:28px;}
+#left-arrow-calendar-month-changer:hover, #right-arrow-calendar-month-changer:hover{cursor: pointer;color:#636363;}
+.calendar-month-day-holder{width: 78%; float:left; border-right: 1px solid white; box-sizing: border-box;}
+.calendar-day-holder, .calendar-single-day-holder {width: 14.2857%; height: 25px; padding-top: 2px; float:left; border-right: solid 1px white; box-sizing: border-box;}
+.calendar-single-day-holder{height: 50px;padding-top: 0px;}
+.calendar-day-holder:last-child, .calendar-single-day-holder{border-right: none}
+.calendar-single-line-wrapper{height: 50px; width: 100%; border-bottom: solid 1px #e78b58; box-sizing: border-box;}
+.calendar-single-car-holder{width: 22%;height: 100%; float:left; padding-top: 5px; border-left: solid 1px #e78b58; border-right: solid 1px #e78b58; box-sizing: border-box;overflow: hidden}
+.calendar-all-day-wrapper{width: 78%; float:left;}
+.calendar-single-day-holder{position: relative; border-right: solid 1px #e78b58;}
+.reservation-exists{position: absolute; height: 45px; top:2px;left: 2px;right: 2px;box-sizing: border-box; font-family: MyriadPro; font-size: 14px; z-index: 20;}
+.show-car-row-link{color: #000; text-decoration: none;font-family: MyriadPro; }
+.calendar-all-day-holder{max-height: 60vh; overflow-y: scroll;}
+
+#push{padding-bottom:42px}
+#site-footer{position:absolute;bottom:0;width:100%;height:42px;font-family:MyriadPro;font-size:20px;padding-top:8px;box-sizing:border-box;color:#fff;text-align:center;background-color:#222}
+
+@media screen and (max-width:1200px) {
+    .login-field,.submit-button{margin:10px 5px;padding:10px;width:90%}
+    .submit-button{padding:7px}
+    .top-header ul li{display:inline-block;padding:17px 6px;color:#fff;font-family:HussarNova;font-size:15px}
+    #calendar{margin:10px 0}
+    #calendar-header-wrapper-id{padding-right: 0;box-sizing: border-box;}
+    .calendar-month-day-holder{border-right: none;}
+    .add-car-extra-equipment{column-count: 3;}
+}
+@media screen and (max-width:968px) {
+    .add-car-form-fields-container, .add-car-extra-equipment{column-count: 2;}
+}
+@media screen and (max-width:786px) {
+    .calendar-single-car-holder, .reservation-exists {font-size: 12px;}
+}
+
+@media screen and (max-width:568px) {
+    .calendar-single-day-holder{height: 70px;}
+    .calendar-single-line-wrapper{height: 70px;}
+    .calendar-header-wrapper{height: 90px;}
+    .calendar-month-day-holder{text-align: left;}
+    .calendar-month-day-holder span{margin-left: 5px; font-size: 16px;}
+    .calendar-car-header-holder{font-size: 16px;}
+    .calendar-day-holder{text-align: center;font-size: 16px;height: 40px;}
+    .add-car-form-fields-container, .add-car-extra-equipment{column-count: 1;}
+    .reservation-exists {height: 65px;}
+}
+
+    
+    

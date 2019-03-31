@@ -1,0 +1,113 @@
+@font-face{font-family:HussarNova;src:url(../fonts/HussarNova55.ttf)}
+@font-face{font-family:MyriadPro;src:url(../fonts/Myriad-Pro-Regular.ttf)}
+@font-face{font-family:JaapokkiRegular;src:url(../fonts/Jaapokki-Regular.otf)}
+@font-face{font-family:LoveloBlack;src:url(../fonts/Lovelo-Black.otf)}
+body,html{margin:0;padding:0}
+html{height:100%}
+body{position:relative;min-height:100%}
+h1,h2,h3,h4,h5{font-family:MyriadPro}
+#main-nav ul li a,.top-header{-webkit-box-sizing:border-box}
+#contact-data a,#main-nav ul li a,.car-text-on-img,.cars-grid-wrapper a,.regulamin-link a{text-decoration:none}
+#main-content-wrapper{position:relative;min-height:100vh}
+.top-header{box-sizing:border-box;width:100%;height:100px}
+.logo-wrapper{position:absolute;left:5%;display:inline-block;width:30%;height:inherit}
+.header-logo{width:auto;height:75px;margin-top: 15px;}
+#hamburger-menu{display:none}
+#main-nav{line-height:0;position:absolute;right:5%;width:70%;margin-top:34px;text-align:right}
+#main-nav ul li{display:inline-block;margin-right:0;padding-left:6%}
+#main-nav ul li a{font-family:HussarNova;font-size:26px;position:relative;box-sizing:border-box;color:#636363}
+#main-nav ul li a:hover{color:#e78b58;}
+#main-nav ul li a::after{position:absolute;bottom:0;left:0;width:0;height:3px;content:'';-webkit-transition:width .5s ease;-o-transition:width .5s ease;transition:width .5s ease;background-color:#e78b58}
+.active-header-link{color:#e78b58!important}
+.slider-section{width:100%;height:470px;margin-bottom:45px;background-image:url(../img/slider-mazda.jpg);background-repeat:no-repeat;background-position:top;background-size:cover}
+.main-title{font-family:LoveloBlack;text-align:center;color:#e78b58;}
+.page-wrapper{white-space:nowrap}
+.cars-grid-wrapper,.parameters{white-space:normal}
+.left-content-wrapper{font-family:MyriadPro;font-size:50px;display:inline-block;width:26.15%}
+.title-wrapper{display:inline-block;width:100%;height:105px;text-align:right;color:#fff;background-image:-webkit-gradient(linear,left top,right top,from(#db666f),to(#e78b58));background-image:-webkit-linear-gradient(left,#db666f,#e78b58);background-image:-o-linear-gradient(left,#db666f,#e78b58);background-image:linear-gradient(to right,#db666f,#e78b58)}
+.site-title{margin-top:50px}
+.car-title{font-size:38px;margin-top:66px}
+.parameters{font-size:20px;max-width:100%;margin-left:5%;text-align:left;color:#000}
+.parameters h4{font-size:30px;margin:2% 0}
+.right-content-wrapper{display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;width:69%;margin-left:-5px;vertical-align:top;white-space:normal;border-top:solid 6px #e78b58}
+.car-img-wrapper{text-align:center}
+.car-img-wrapper img{-webkit-box-sizing:border-box;box-sizing:border-box;width:31%;margin:1%;padding:10px;-webkit-box-shadow:0 0 20px #000;box-shadow:0 0 20px #000}
+.cars-grid-wrapper,.text-wrapper{margin-top:115px;margin-left:3%}
+.text-wrapper h3{font-size:28px}
+.text-wrapper p{font-family:MyriadPro;font-size:26px;text-align:justify}
+.car-text-on-img,.rent-title,.single-car-read-more{font-family:JaapokkiRegular}
+#contact-data a{color:#000}
+.seo{font-size:.1px;color:#fff}
+.rent-title{text-align:center}
+.single-car{position:relative;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;width:44%;height:auto;margin-bottom:5%;margin-left:5%;-webkit-box-shadow:0 0 10px #000;box-shadow:0 0 10px #000}
+.single-car-read-more{font-size:1.5em;position:absolute;top:-25px;display:block;visibility:hidden;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;height:40px;padding-top:5px;-webkit-transition:top .3s linear,opacity .3s linear;-o-transition:top .3s linear,opacity .3s linear;transition:top .3s linear,opacity .3s linear;text-align:center;text-transform:uppercase;opacity:0;color:#fff;background:#e78b58}
+.car-img,.car-text-on-img{-webkit-box-sizing:border-box;width:100%}
+.car-img{box-sizing:border-box;height:auto;padding:15px 15px 11px}
+.single-car-white-mask{position:absolute;z-index:999;visibility:hidden;width:100%;height:100%;-webkit-transition:opacity .3s linear;-o-transition:opacity .3s linear;transition:opacity .3s linear;opacity:0;background:#fff}
+.fa-arrow-circle-right{font-size:24px}
+.car-text-on-img{font-size:26px;position:absolute;bottom:0;box-sizing:border-box;padding:0 20px;text-transform:uppercase;color:#000;background-color:rgba(255,255,255,.7)}
+.car-text-on-img p{margin:3px 10px 0;text-align:center}
+.single-car-price-text{font-size:20px;margin-top:0!important;margin-bottom:10px!important;color:#e78b58}
+#site-footer,.regulamin-link a{font-family:MyriadPro;color:#fff}
+.regulamin-link{margin:3%}
+.regulamin-link a{font-size:26px;margin:0;padding:10px;-webkit-transition:background .5s ease;-o-transition:background .5s ease;transition:background .5s ease;background:#e78b58}
+#push{padding-bottom:42px}
+#site-footer{font-size:20px;position:absolute;bottom:0;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;height:42px;padding-top:8px;text-align:center;background-color:#636363}
+@media (hover:hover) {
+#main-nav ul li a: hover::after{width:100%}
+.single-car:hover>.single-car-read-more{top:-40px;visibility:visible;opacity:1}
+.single-car:hover>.single-car-white-mask{visibility:visible;opacity:.6}
+.regulamin-link a:hover{background:#db666f}
+}
+@media only screen and (min-width:1440px) {
+.car-title{font-size:46px;margin-top:60px}
+}
+@media only screen and (max-width:1167px) {
+.top-header{height:auto}
+.logo-wrapper{position:relative;height:100px}
+#hamburger-menu{position:absolute;top:35px;right:5%;display:block;width:40px;height:35px;-webkit-transition:.3s linear;-o-transition:.3s linear;transition:.3s linear;border:0;border-top:5px solid #e78b58;outline-color:transparent;background:0 0}
+#hamburger-menu::after,#hamburger-menu::before{position:absolute;top:0;right:0;width:100%;content:'';-webkit-transform:translateY(10px);-ms-transform:translateY(10px);transform:translateY(10px);border-top:5px solid #e78b58}
+#hamburger-menu::after{-webkit-transition:.3s linear;-o-transition:.3s linear;transition:.3s linear;-webkit-transform:translateY(25px);-ms-transform:translateY(25px);transform:translateY(25px)}
+#hamburger-menu:focus{-webkit-transform:rotate(45deg) translateY(5px);-ms-transform:rotate(45deg) translateY(5px);transform:rotate(45deg) translateY(5px);border:none}
+#hamburger-menu:focus::after{-webkit-transform:rotate(-90deg) translateX(-10px);-ms-transform:rotate(-90deg) translateX(-10px);transform:rotate(-90deg) translateX(-10px)}
+#main-nav{line-height:unset;position:relative;display:none;width:100%;margin-right:5%}
+#main-nav ul li{display:block;padding-bottom:40px}
+#main-nav ul li:last-child{padding-bottom:20px}
+.contact-slider-section,.slider-section{height:300px}
+.left-content-wrapper{display:block;width:100%;text-align:center}
+.title-wrapper{text-align:center}
+.car-title{font-size:46px;margin-top:24px}
+.parameters h4{font-size:24px}
+.right-content-wrapper{display:block;width:100%;margin-left:0;border:none}
+.cars-grid-wrapper,.text-wrapper{margin: 2% auto; text-align:center}
+.text-wrapper{margin-right:2%;margin-left:2%}
+.single-car{margin:3% 1%}
+.car-text-on-img{font-size:24px;padding:0 10px 5px;text-align:left}
+}
+@media only screen and (max-width:796px) {
+.header-logo{height:70px;margin-top:15px}
+.contact-slider-section,.slider-section{height:200px}
+.left-content-wrapper{font-size:40px}
+.title-wrapper{height:80px}
+.car-title{font-size:30px;margin-top:24px}
+.site-title{margin-top:37px}
+.car-img-wrapper img{width:96%}
+.single-car-read-more{font-size:18px;-webkit-box-sizing:border-box;box-sizing:border-box;padding-top:10px}
+.fa-arrow-circle-right{font-size:20px}
+.car-img{padding:10px 10px 5px}
+.car-text-on-img{font-size:14px;padding:0 12px}
+.car-text-on-img p{margin:2px}
+.single-car-price-text{font-size:12px}
+.rent-title{font-size:24px;margin-right:20px;margin-left:20px}
+.regulamin-link a{font-size:18px}
+.regulamin-link{margin-bottom:5%;text-align:center}
+}
+@media only screen and (max-width:496px) {
+.text-wrapper p{font-size:20px}
+.contact-slider-section,.slider-section{height:120px}
+.single-car-read-more{font-size:14px;-webkit-box-sizing:border-box;box-sizing:border-box;padding-top:12px}
+.fa-arrow-circle-right{font-size:16px}
+.car-img{padding:7px 7px 2px}
+.car-text-on-img{font-size:12px;margin:1px;padding:0 10px}
+.single-car-price-text{font-size:10px;margin-bottom:5px!important}
+}
